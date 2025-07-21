@@ -7,7 +7,7 @@ class Solution {
         }
         if(i>=0){
             int j = n-1;
-            while(nums[j] <= nums[i]){
+            while(nums[j]<=nums[i]){
                 j--;
             }
             int temp = nums[i];
